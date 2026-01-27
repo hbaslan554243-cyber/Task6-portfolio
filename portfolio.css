@@ -1,0 +1,139 @@
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f4f8fc;
+  color: #1f2937;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #0a58ca);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #eaf2ff !important;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #cfe2ff !important;
+}
+
+
+#home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    #0d6efd,
+    #0a58ca,
+    #084298
+  );
+}
+
+#home h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#home .lead {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+#home .btn {
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+
+#about {
+  padding: 80px 0;
+}
+
+#about h2 {
+  color: #0d6efd;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#about img {
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.25);
+}
+
+
+#skills {
+  padding: 80px 0;
+  background-color: #eaf2ff;
+}
+
+#skills h2 {
+  color: #0a58ca;
+  font-weight: 700;
+}
+
+#skills .card {
+  border: none;
+  border-radius: 15px;
+  background: #ffffff;
+  font-weight: 600;
+  color: #0d6efd;
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(13, 110, 253, 0.3);
+}
+
+/* ===== PROJECTS ===== */
+#Projects {
+  background-color: #f4f8fc;
+}
+
+#Projects h2 {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+#Projects .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#Projects .card:hover {
+  transform: scale(1.03);
+}
+
+#Projects .card-title {
+  color: #0a58ca;
+  font-weight: 600;
+}
+
+
+#Contact {
+  background: linear-gradient(135deg, #084298, #0a58ca);
+}
+
+#Contact h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #0a58ca;
+}
